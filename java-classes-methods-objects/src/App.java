@@ -1,5 +1,8 @@
 
 class Methods{
+	String animal;
+	int value;
+	
 	void run() {
 		System.out.println("Running..");
 	}
