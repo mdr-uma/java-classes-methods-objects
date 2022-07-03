@@ -11,6 +11,8 @@ class Methods{
 	}
 }
 
+//A Class is like an object constructor, or a "blueprint" for creating objects.
+
 public class App {
 	public static void main(String[] args) {
 		Methods name = new Methods();
