@@ -1,3 +1,6 @@
+//an object is an element (or instance) of a class; objects have the behaviors of their class. The object is the actual component of programs, 
+//while the class specifies how instances are created and how they behave. 
+//method: a method is an action which an object is able to perform. sending a message.
 
 class Methods{
 	String animal;
@@ -12,7 +15,6 @@ class Methods{
 }
 
 //A Class is like an object constructor, or a "blueprint" for creating objects.
-
 public class App {
 	public static void main(String[] args) {
 		Methods name = new Methods();
