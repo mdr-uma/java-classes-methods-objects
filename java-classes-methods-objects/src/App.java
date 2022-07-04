@@ -5,7 +5,8 @@
 class Methods{
 	String animal;
 	int value;
-	
+
+	//	The void keyword specifies that a method should not have a return value.
 	void run() {
 		System.out.println("Running..");
 		for(int i=0; i<5; i++) {
