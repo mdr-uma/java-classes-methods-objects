@@ -5,6 +5,7 @@
 class Methods{
 	String animal;
 	int value;
+	int month;
 
 	//	The void keyword specifies that a method should not have a return value.
 	void run() {
