@@ -15,6 +15,7 @@ class Methods{
 		}
 	}
 	
+	//method with 2 arguments
 	void timer(int minutes, double seconds) {
 		System.out.println("It took " + minutes + "m and " + seconds + "s to get down the hill.");
 	}
