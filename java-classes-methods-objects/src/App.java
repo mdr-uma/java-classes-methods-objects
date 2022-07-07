@@ -14,6 +14,10 @@ class Methods{
 			System.out.println("My " + animal + " is " + value + "years old.");
 		}
 	}
+	
+	void timer(int minutes, double seconds) {
+		System.out.println("It took " + minutes + "m and " + seconds + "s to get down the hill.");
+	}
 }
 
 //A Class is like an object constructor, or a "blueprint" for creating objects.
@@ -23,5 +27,6 @@ public class App {
 		name.animal = "Cat";
 		name.value = 9;
 		name.run();
+		name.timer(9, 4.30);
 	}
 }
