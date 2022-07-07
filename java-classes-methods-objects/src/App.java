@@ -15,7 +15,7 @@ class Methods{
 		}
 	}
 	
-	//method with 2 arguments
+	//method with 2 arguments.
 	void timer(int minutes, double seconds) {
 		System.out.println("It took " + minutes + "m and " + seconds + "s to get down the hill.");
 	}
@@ -28,6 +28,7 @@ public class App {
 		name.animal = "Cat";
 		name.value = 9;
 		name.run();
+		//make sure to pass arguments to prevent error and arguments need to  be in the same oder as well to work.
 		name.timer(9, 4.30);
 	}
 }
