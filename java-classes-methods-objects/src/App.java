@@ -20,6 +20,7 @@ class Methods{
 			return monthsLeft;
 	}
 	
+	//method with a argument.
 	void walk(int speed) {
 		System.out.println("Walking " + speed + " km per hour.");
 	}
@@ -38,6 +39,7 @@ public class App {
 		name.value = 9;
 		name.run();
 		name.walk(8);
+		
 		name.month = 6;
 		int months = name.calculateMonthsToBirthday();
 		System.out.println(months + " months until  next birthday.");
