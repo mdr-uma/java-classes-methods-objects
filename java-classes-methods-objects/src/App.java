@@ -20,6 +20,10 @@ class Methods{
 			return monthsLeft;
 	}
 	
+	void walk(int speed) {
+		System.out.println("Walking " + speed + " km per hour.");
+	}
+	
 	//method with 2 arguments.
 	void timer(int minutes, double seconds) {
 		System.out.println("It took " + minutes + "m and " + seconds + "s to get down the hill.");
@@ -33,7 +37,6 @@ public class App {
 		name.animal = "Cat";
 		name.value = 9;
 		name.run();
-		
 		name.month = 6;
 		int months = name.calculateMonthsToBirthday();
 		System.out.println(months + " months until  next birthday.");
